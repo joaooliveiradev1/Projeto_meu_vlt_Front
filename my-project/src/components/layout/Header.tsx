@@ -11,7 +11,7 @@ export default function Header() {
         <ul className="flex list-none gap-8">
           <li>
             <a
-              href="#"
+              href="/"
               className="text-gray-800 font-medium transition-colors duration-300 hover:text-blue-600"
             >
               Início
@@ -19,7 +19,7 @@ export default function Header() {
           </li>
           <li>
             <a
-              href="#"
+              href="/hero"
               className="text-gray-800 font-medium transition-colors duration-300 hover:text-blue-600"
             >
               Rotas
@@ -27,7 +27,7 @@ export default function Header() {
           </li>
           <li>
             <a
-              href="#"
+              href="/about"
               className="text-gray-800 font-medium transition-colors duration-300 hover:text-blue-600"
             >
               Sobre
@@ -35,7 +35,7 @@ export default function Header() {
           </li>
           <li>
             <a
-              href="#"
+              href="/contact"
               className="text-gray-800 font-medium transition-colors duration-300 hover:text-blue-600"
             >
               Contato
@@ -47,13 +47,13 @@ export default function Header() {
       {/* Botões */}
       <div className="flex items-center">
         <a
-          href="#"
+          href="/login"
           className="ml-4 rounded-md border border-blue-600 px-4 py-2 text-blue-600 font-medium transition-colors hover:bg-blue-50"
         >
           Entrar
         </a>
         <a
-          href="#"
+          href="/register"
           className="ml-4 rounded-md bg-blue-600 px-4 py-2 text-white font-medium transition-colors hover:bg-blue-700"
         >
           Criar Conta
