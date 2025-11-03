@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Hero() {
   return (
     <section className="mt-32 flex flex-col-reverse items-center justify-between px-12 py-20 md:flex-row md:px-24 bg-amber-50">
@@ -13,7 +11,7 @@ export default function Hero() {
           sua experiência com o transporte público.
         </p>
         <a
-          href="#"
+          href="/hero"
           className="rounded-lg bg-blue-600 px-6 py-3 font-medium text-white transition-colors hover:bg-blue-700"
         >
           Acompanhar rotas
