@@ -1,5 +1,5 @@
 import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
+import Footer from "@/components/Footer";
 import Features from "@/components/Features";
 
 export default function FeaturesPage() {

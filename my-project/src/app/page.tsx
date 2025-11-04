@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import About from "@/components/About";
 import Contact from "@/components/Contact";
@@ -16,6 +17,12 @@ export default function Home() {
       <About />
       <Contact />
       <Footer />
+=======
+export default function Home() {
+  return (
+    <>
+    homepage
+>>>>>>> ebcc55cbaa868ba268bcbbdcac60f1a5bd88b75d
     </>
   );
 }

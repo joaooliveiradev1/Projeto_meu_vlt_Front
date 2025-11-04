@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="text-center py-10 text-gray-600 text-sm mt-20 border-t border-gray-200 bg-white">
+    <footer className="fixed bottom-0 py-7 left-0 right-0 text-center text-gray-600 text-sm bg-white border-t border-gray-200">
       © 2025 Meu VLT — Projeto acadêmico UNIFOR. Todos os direitos reservados.
     </footer>
   );
