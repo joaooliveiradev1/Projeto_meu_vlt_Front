@@ -16,13 +16,12 @@ import {
   TabsList,
   TabsTrigger,
 } from "@/components/ui/tabs"
-import Footer from "@/components/Footer";
-import Nav from "@/components/Nav";
+
 
 export default function AuthPage(){
 return(
 <>
-    <div className="flex-1  bg-amber-800 flex items-center justify-center p-4 bg-cyan-900">
+    <div className="flex-1 flex items-center justify-center p-4 bg-cyan-900">
       <Tabs className="w-full max-w-md pb-35" defaultValue="account">
             <TabsList>
               <TabsTrigger value="account">Login</TabsTrigger>
@@ -77,8 +76,6 @@ return(
             </TabsContent>
           </Tabs>
     </div>
-    
-        <Footer ></Footer>
 </>
 );
 }
